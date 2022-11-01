@@ -16,3 +16,8 @@ print(l_2d)
 
 
 print([list(x) for x in list(zip(*l_2d))])
+
+b = np.asarray([[1,2,3],[4,5,6]])
+print(3*b)
+c = np.asarray([[2,3,4],[5,6,7]])
+print(b*c)
