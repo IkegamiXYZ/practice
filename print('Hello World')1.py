@@ -21,3 +21,6 @@ b = np.asarray([[1,2,3],[4,5,6]])
 print(3*b)
 c = np.asarray([[2,3,4],[5,6,7]])
 print(b*c)
+
+arr = np.random.rand(100)
+print(np.mean(arr))
